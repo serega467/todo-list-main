@@ -1,0 +1,170 @@
+body,
+html {
+    margin: 0;
+}
+
+button {
+    padding: 5px;
+
+    border-radius: 10px;
+    border: none;
+    background-color: #C8E3D4;
+}
+
+.outer-div-style {
+    display: flex;
+
+    padding: 10px;
+    margin: 15px;
+}
+
+/* styling header */
+#header {
+    display: flex;
+    align-items: center;
+
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    height: 80px;
+
+    font-size: larger;
+
+    margin: 20px 20px 0 20px;
+}
+
+#header-text {
+    margin: 0;
+    padding: 10px;
+}
+
+/* styling create form */
+#div-for-create-form {
+    display: flex;
+    justify-content: center;
+}
+
+#create-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 100px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: white;
+
+    padding: 10px;
+    margin: 20px;
+
+    max-width: 800px;
+}
+
+#div-for-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+#div-for-edit-and-close-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.create-divs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* styling left bar */
+.inside-div-left {
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.left-menu-divs {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+    margin: 3px;
+    padding: 5px;
+
+    cursor: pointer;
+}
+
+/* styling right bar */
+.inside-div-right {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+
+    padding: 10px;
+
+    width: 100%;
+}
+
+/* styling tasks */
+#div-for-tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-task {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    max-width: 1135.340px;
+
+    padding: 7px 10px;
+}
+
+.first-level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#task-checkbox {
+    margin: 3px;
+}
+
+.second-level {
+    display: flex;
+    align-items: center;
+
+    padding-left: 41px;
+}
+
+#edit-delete-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+#create-button {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    max-width: 1135.340px;
+
+    padding: 3px 10px;
+    margin: 1px;
+
+    cursor: pointer;
+}
+
+#html-div {
+    display: flex;
+    gap: 20px;
+}
+
+
